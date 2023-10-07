@@ -17,8 +17,6 @@ function mostrarPokemon(data) {
 
   tipos = tipos.join("");
 
-  console.log(tipos);
-
   let pokeId = data.id.toString();
 
   if (pokeId.length === 1) {
